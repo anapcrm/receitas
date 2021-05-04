@@ -46,6 +46,7 @@ section>h3 {
     font-size: 20px;
     height: 45px;
     padding-top: 10px;
+    cursor: pointer;
 }
 
 section {
