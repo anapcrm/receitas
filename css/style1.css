@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: lightblue;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: whitesmoke;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('../receitas/imagens/chefinha.png') no-repeat;
+    width: 175px;
+    height: 175px;
+    margin: 10px 15px 10px 0;
+}
+
+#navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: rgb(42, 107, 192);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 10px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: rgb(42, 107, 192);;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color:lightblue ;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.nav-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid rgb(42, 107, 192);
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.text-center {
+    font-size: 40px;
+}
+.category-tile { 
+    position: relative;
+    height: 250px;
+    width: 100%;
+    border: 2px solid blue;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+ 
+.category-tile:hover {
+    box-shadow: 1px 1px 5px 1px black;
+    transform: scale(1.1);
+
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+
+}
+
+/* bolo de chocolate/*
+
